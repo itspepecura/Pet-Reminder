@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E91C73CF1F5FEC91D67A35C /* Pods_Pet_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A200998CEE999788808CF097 /* Pods_Pet_Reminder.framework */; };
+		DBE023287C3AE69651147074 /* Pods_Pet_Reminder_Pet_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE381D717A5A8BD1DAA5BD /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */; };
 		DC0A3B2029C0CACC00CCBA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */; };
 		DC0A3B2229C0CACC00CCBA5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */; };
-		DC0A3B2429C0CACC00CCBA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2329C0CACC00CCBA5B /* ViewController.swift */; };
+		DC0A3B2429C0CACC00CCBA5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */; };
 		DC0A3B2729C0CACC00CCBA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */; };
 		DC0A3B2929C0CACD00CCBA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */; };
 		DC0A3B2C29C0CACD00CCBA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0A3B2A29C0CACD00CCBA5B /* LaunchScreen.storyboard */; };
 		DC0A3B3729C0CACD00CCBA5B /* Pet_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B3629C0CACD00CCBA5B /* Pet_ReminderTests.swift */; };
 		DC0A3B4129C0CACD00CCBA5B /* Pet_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B4029C0CACD00CCBA5B /* Pet_ReminderUITests.swift */; };
 		DC0A3B4329C0CACD00CCBA5B /* Pet_ReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A3B4229C0CACD00CCBA5B /* Pet_ReminderUITestsLaunchTests.swift */; };
+		DC324DEE2A265B17003721F5 /* HaberIcerikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */; };
+		DC55F6802A17B357004DEB4E /* E-mailDegisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */; };
+		DC55F6822A17B367004DEB4E /* ParolaDegisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */; };
+		DC5E2B7229D017970074F3F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC5E2B7129D017970074F3F7 /* GoogleService-Info.plist */; };
+		DC6D887E2A1E7B2D0084EF4A /* HaberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */; };
+		DC6D88852A1E7F050084EF4A /* Haberler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D88842A1E7F050084EF4A /* Haberler.swift */; };
+		DC6D88882A1E80270084EF4A /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D88872A1E80270084EF4A /* Webservice.swift */; };
+		DC6D888A2A1E86650084EF4A /* HaberlerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */; };
+		DC8B7EC029EC4D0900922976 /* HatirlatmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */; };
+		DC8BD7E629C946C100BCA3C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */; };
+		DCA27DA129E2870200A27566 /* SohbetArayuzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */; };
+		DCAF343929D3F4FF008910F5 /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */; };
+		DCAF343B29D3F513008910F5 /* AnasayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */; };
+		DCAF343D29D3F51E008910F5 /* HayvanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */; };
+		DCAF343F29D3F527008910F5 /* SohbetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF343E29D3F527008910F5 /* SohbetViewController.swift */; };
+		DE2A49F00D296E5602D251A0 /* Pods_Pet_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E31F2AA3CE45026B96335A0 /* Pods_Pet_ReminderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FA11353E42D5BD071D3BDC8 /* Pods-Pet Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		61D93439781197719BA6B08B /* Pods-Pet Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		6E31F2AA3CE45026B96335A0 /* Pods_Pet_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		810E79CDDF98921FECCC0E47 /* Pods-Pet ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A200998CEE999788808CF097 /* Pods_Pet_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A3B1C29C0CACC00CCBA5B /* Pet Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC0A3B2329C0CACC00CCBA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DC0A3B2629C0CACC00CCBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC0A3B2B29C0CACD00CCBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,25 @@
 		DC0A3B3C29C0CACD00CCBA5B /* Pet ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A3B4029C0CACD00CCBA5B /* Pet_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ReminderUITests.swift; sourceTree = "<group>"; };
 		DC0A3B4229C0CACD00CCBA5B /* Pet_ReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberIcerikViewController.swift; sourceTree = "<group>"; };
+		DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "E-mailDegisViewController.swift"; sourceTree = "<group>"; };
+		DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParolaDegisViewController.swift; sourceTree = "<group>"; };
+		DC5E2B7129D017970074F3F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberCell.swift; sourceTree = "<group>"; };
+		DC6D88842A1E7F050084EF4A /* Haberler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haberler.swift; sourceTree = "<group>"; };
+		DC6D88872A1E80270084EF4A /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberlerViewModel.swift; sourceTree = "<group>"; };
+		DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatirlatmaViewController.swift; sourceTree = "<group>"; };
+		DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetArayuzViewController.swift; sourceTree = "<group>"; };
+		DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewController.swift; sourceTree = "<group>"; };
+		DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayvanViewController.swift; sourceTree = "<group>"; };
+		DCAF343E29D3F527008910F5 /* SohbetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SohbetViewController.swift; sourceTree = "<group>"; };
+		E45909036E7F475A66207B45 /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7270F8594DF5787EA806B35 /* Pods-Pet ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-Pet ReminderTests/Pods-Pet ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC1A9EF94B792B4D59D0F270 /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1DE381D717A5A8BD1DAA5BD /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Reminder_Pet_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E91C73CF1F5FEC91D67A35C /* Pods_Pet_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2A49F00D296E5602D251A0 /* Pods_Pet_ReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE023287C3AE69651147074 /* Pods_Pet_Reminder_Pet_ReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8666B413AB8C13AA767DD1D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA11353E42D5BD071D3BDC8 /* Pods-Pet Reminder.debug.xcconfig */,
+				61D93439781197719BA6B08B /* Pods-Pet Reminder.release.xcconfig */,
+				E45909036E7F475A66207B45 /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */,
+				EC1A9EF94B792B4D59D0F270 /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */,
+				810E79CDDF98921FECCC0E47 /* Pods-Pet ReminderTests.debug.xcconfig */,
+				E7270F8594DF5787EA806B35 /* Pods-Pet ReminderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC0A3B1329C0CACC00CCBA5B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				DC0A3B3529C0CACD00CCBA5B /* Pet ReminderTests */,
 				DC0A3B3F29C0CACD00CCBA5B /* Pet ReminderUITests */,
 				DC0A3B1D29C0CACC00CCBA5B /* Products */,
+				8666B413AB8C13AA767DD1D8 /* Pods */,
+				F9E645EE9105FD4C180033EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +159,15 @@
 		DC0A3B1E29C0CACC00CCBA5B /* Pet Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */,
-				DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */,
-				DC0A3B2329C0CACC00CCBA5B /* ViewController.swift */,
-				DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */,
-				DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */,
 				DC0A3B2A29C0CACD00CCBA5B /* LaunchScreen.storyboard */,
+				DC0A3B2829C0CACD00CCBA5B /* Assets.xcassets */,
+				DC0A3B2529C0CACC00CCBA5B /* Main.storyboard */,
 				DC0A3B2D29C0CACD00CCBA5B /* Info.plist */,
+				DC6D494729CA754700D5A2CC /* View */,
+				DC6D494629CA751800D5A2CC /* Giris ViewController */,
+				DC6D887F2A1E7E610084EF4A /* Pati */,
+				DC5E2B6929CFF29F0074F3F7 /* Ana Sayfa */,
+				DC5E2B7129D017970074F3F7 /* GoogleService-Info.plist */,
 			);
 			path = "Pet Reminder";
 			sourceTree = "<group>";
@@ -127,6 +189,118 @@
 			path = "Pet ReminderUITests";
 			sourceTree = "<group>";
 		};
+		DC55F67C2A17B304004DEB4E /* Parola E-mail Değişme */ = {
+			isa = PBXGroup;
+			children = (
+				DC55F67F2A17B357004DEB4E /* E-mailDegisViewController.swift */,
+				DC55F6812A17B367004DEB4E /* ParolaDegisViewController.swift */,
+			);
+			name = "Parola E-mail Değişme";
+			path = "Parola E-mail Değişme";
+			sourceTree = "<group>";
+		};
+		DC5E2B6929CFF29F0074F3F7 /* Ana Sayfa */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88802A1E7EBD0084EF4A /* Model */,
+				DC6D88862A1E7F3C0084EF4A /* View */,
+				DC6D88822A1E7ECA0084EF4A /* ViewModel */,
+				DC6D88832A1E7ED00084EF4A /* Services */,
+				DCA27DA229E2871700A27566 /* Sohbet */,
+				DC8B7EC329EC4D7200922976 /* Ayarlar */,
+			);
+			path = "Ana Sayfa";
+			sourceTree = "<group>";
+		};
+		DC6D494629CA751800D5A2CC /* Giris ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BD7E529C946C100BCA3C7 /* SignUpViewController.swift */,
+				DC0A3B2329C0CACC00CCBA5B /* LoginViewController.swift */,
+			);
+			path = "Giris ViewController";
+			sourceTree = "<group>";
+		};
+		DC6D494729CA754700D5A2CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A3B1F29C0CACC00CCBA5B /* AppDelegate.swift */,
+				DC0A3B2129C0CACC00CCBA5B /* SceneDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC6D887F2A1E7E610084EF4A /* Pati */ = {
+			isa = PBXGroup;
+			children = (
+				DC8B7EBF29EC4D0900922976 /* HatirlatmaViewController.swift */,
+				DCAF343C29D3F51D008910F5 /* HayvanViewController.swift */,
+			);
+			path = Pati;
+			sourceTree = "<group>";
+		};
+		DC6D88802A1E7EBD0084EF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88842A1E7F050084EF4A /* Haberler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC6D88822A1E7ECA0084EF4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88892A1E86650084EF4A /* HaberlerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC6D88832A1E7ED00084EF4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D88872A1E80270084EF4A /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DC6D88862A1E7F3C0084EF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF343A29D3F513008910F5 /* AnasayfaViewController.swift */,
+				DC6D887D2A1E7B2D0084EF4A /* HaberCell.swift */,
+				DC324DED2A265B17003721F5 /* HaberIcerikViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC8B7EC329EC4D7200922976 /* Ayarlar */ = {
+			isa = PBXGroup;
+			children = (
+				DC55F67C2A17B304004DEB4E /* Parola E-mail Değişme */,
+				DCAF343829D3F4FF008910F5 /* AyarlarViewController.swift */,
+			);
+			path = Ayarlar;
+			sourceTree = "<group>";
+		};
+		DCA27DA229E2871700A27566 /* Sohbet */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF343E29D3F527008910F5 /* SohbetViewController.swift */,
+				DCA27DA029E2870200A27566 /* SohbetArayuzViewController.swift */,
+			);
+			path = Sohbet;
+			sourceTree = "<group>";
+		};
+		F9E645EE9105FD4C180033EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A200998CEE999788808CF097 /* Pods_Pet_Reminder.framework */,
+				F1DE381D717A5A8BD1DAA5BD /* Pods_Pet_Reminder_Pet_ReminderUITests.framework */,
+				6E31F2AA3CE45026B96335A0 /* Pods_Pet_ReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0A3B4629C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet Reminder" */;
 			buildPhases = (
+				0E95D012E771C923C8328894 /* [CP] Check Pods Manifest.lock */,
 				DC0A3B1829C0CACC00CCBA5B /* Sources */,
 				DC0A3B1929C0CACC00CCBA5B /* Frameworks */,
 				DC0A3B1A29C0CACC00CCBA5B /* Resources */,
+				124303F21A776F19D314C3AD /* [CP] Embed Pods Frameworks */,
+				AAB93808AA193385CC5CDA36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0A3B4929C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet ReminderTests" */;
 			buildPhases = (
+				2B7088C0411F2EA9A93B7C7A /* [CP] Check Pods Manifest.lock */,
 				DC0A3B2E29C0CACD00CCBA5B /* Sources */,
 				DC0A3B2F29C0CACD00CCBA5B /* Frameworks */,
 				DC0A3B3029C0CACD00CCBA5B /* Resources */,
@@ -169,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0A3B4C29C0CACD00CCBA5B /* Build configuration list for PBXNativeTarget "Pet ReminderUITests" */;
 			buildPhases = (
+				5FE9BEB254F295BD577A82A0 /* [CP] Check Pods Manifest.lock */,
 				DC0A3B3829C0CACD00CCBA5B /* Sources */,
 				DC0A3B3929C0CACD00CCBA5B /* Frameworks */,
 				DC0A3B3A29C0CACD00CCBA5B /* Resources */,
+				19815AD4DD10526CCCC7EA68 /* [CP] Embed Pods Frameworks */,
+				5DF7A2A118F19719BD3A4145 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0A3B2C29C0CACD00CCBA5B /* LaunchScreen.storyboard in Resources */,
+				DC5E2B7229D017970074F3F7 /* GoogleService-Info.plist in Resources */,
 				DC0A3B2929C0CACD00CCBA5B /* Assets.xcassets in Resources */,
 				DC0A3B2729C0CACC00CCBA5B /* Main.storyboard in Resources */,
 			);
@@ -253,14 +435,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E95D012E771C923C8328894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		124303F21A776F19D314C3AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19815AD4DD10526CCCC7EA68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7088C0411F2EA9A93B7C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF7A2A118F19719BD3A4145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder-Pet ReminderUITests/Pods-Pet Reminder-Pet ReminderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE9BEB254F295BD577A82A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet Reminder-Pet ReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB93808AA193385CC5CDA36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Reminder/Pods-Pet Reminder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC0A3B1829C0CACC00CCBA5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0A3B2429C0CACC00CCBA5B /* ViewController.swift in Sources */,
+				DC0A3B2429C0CACC00CCBA5B /* LoginViewController.swift in Sources */,
+				DCA27DA129E2870200A27566 /* SohbetArayuzViewController.swift in Sources */,
+				DC6D88852A1E7F050084EF4A /* Haberler.swift in Sources */,
+				DC6D888A2A1E86650084EF4A /* HaberlerViewModel.swift in Sources */,
+				DCAF343F29D3F527008910F5 /* SohbetViewController.swift in Sources */,
+				DCAF343929D3F4FF008910F5 /* AyarlarViewController.swift in Sources */,
+				DC6D887E2A1E7B2D0084EF4A /* HaberCell.swift in Sources */,
+				DC55F6822A17B367004DEB4E /* ParolaDegisViewController.swift in Sources */,
 				DC0A3B2029C0CACC00CCBA5B /* AppDelegate.swift in Sources */,
+				DC6D88882A1E80270084EF4A /* Webservice.swift in Sources */,
+				DC324DEE2A265B17003721F5 /* HaberIcerikViewController.swift in Sources */,
+				DC8B7EC029EC4D0900922976 /* HatirlatmaViewController.swift in Sources */,
+				DCAF343D29D3F51E008910F5 /* HayvanViewController.swift in Sources */,
+				DC8BD7E629C946C100BCA3C7 /* SignUpViewController.swift in Sources */,
+				DCAF343B29D3F513008910F5 /* AnasayfaViewController.swift in Sources */,
 				DC0A3B2229C0CACC00CCBA5B /* SceneDelegate.swift in Sources */,
+				DC55F6802A17B357004DEB4E /* E-mailDegisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +765,7 @@
 		};
 		DC0A3B4729C0CACD00CCBA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA11353E42D5BD071D3BDC8 /* Pods-Pet Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,8 +777,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,12 +788,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC0A3B4829C0CACD00CCBA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D93439781197719BA6B08B /* Pods-Pet Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +806,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,12 +817,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DC0A3B4A29C0CACD00CCBA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810E79CDDF98921FECCC0E47 /* Pods-Pet ReminderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +844,7 @@
 		};
 		DC0A3B4B29C0CACD00CCBA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7270F8594DF5787EA806B35 /* Pods-Pet ReminderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +865,7 @@
 		};
 		DC0A3B4D29C0CACD00CCBA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45909036E7F475A66207B45 /* Pods-Pet Reminder-Pet ReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +884,7 @@
 		};
 		DC0A3B4E29C0CACD00CCBA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1A9EF94B792B4D59D0F270 /* Pods-Pet Reminder-Pet ReminderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
